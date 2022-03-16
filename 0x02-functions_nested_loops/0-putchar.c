@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * Print _putchar, followed by an new line
+ * main - Entry point
  *
- * Return: On success 0.
- * On error, 1 is returned, and errno is set appropriately.
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-    char *sh = "_putchar";
-	_putchar(*sh);    
+	char *sh = "_putchar";
+	_putchar(*sh);
 	return (0);
 }
